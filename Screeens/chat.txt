@@ -1,0 +1,6 @@
+const newChatroomRef = push(ref(database, 'chatrooms'), {
+    firstUser: myData.username,
+    secondUser: user.username,
+    messages: [],
+});
+
